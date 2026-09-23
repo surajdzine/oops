@@ -20,9 +20,9 @@ class Student{
     // copy constructor 
         Student(const Student &srcobj){
         cout << " Student is parametrise constructor "<<endl;
-        this-> id = id ;
-        this-> name  = name  ;
-        this-> semester  = semester  ;
+        this-> id = srcobj.id;
+        this-> name  = srcobj.name;
+        this-> semester  = srcobj.semester ;
     }
 
     // lets make 3 function 
