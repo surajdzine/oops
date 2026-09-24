@@ -1,4 +1,4 @@
-// new way of parametrise constructor 
+// parametrise constructor 
 #include<iostream>
 using namespace std;
 
